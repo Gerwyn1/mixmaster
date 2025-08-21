@@ -39,7 +39,7 @@ const Newsletter = () => {
           className="form-input"
           name="name"
           id="name"
-          defaultValue="john"
+          required
         />
       </div>
       {/* last name */}
@@ -52,7 +52,7 @@ const Newsletter = () => {
           className="form-input"
           name="lastName"
           id="lastName"
-          defaultValue="smith"
+          required
         />
       </div>
       {/* name */}
@@ -65,7 +65,7 @@ const Newsletter = () => {
           className="form-input"
           name="email"
           id="email"
-          defaultValue="test@test.com"
+          required
         />
       </div>
       <button
